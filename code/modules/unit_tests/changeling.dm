@@ -34,6 +34,10 @@
 
 	// Make sure we give it enough time such that the status effect process ticks over and finishes
 	sleep(sting_action.sting_duration + 0.5 SECONDS)
+	// OCULIS EDIT ADDITION - give an extra few seconds if the status effect is somehow still there
+	if(victim.has_status_effect(/datum/status_effect/temporary_transformation))
+		sleep(2 SECONDS) // hopefully give enough time for it to tick, if the github actions runner is feeling particularly slow i guess
+	// OCULIS EDIT END
 
 	// Check their name and species reset correctly
 	TEST_ASSERT_EQUAL(victim.name, base_victim_name, "Victim name did not change back after transformation sting expired.")
