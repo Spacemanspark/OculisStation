@@ -15,7 +15,6 @@ import {
 import { exhaustiveCheck } from 'tgui-core/exhaustive'; // NOVA EDIT ADDITION
 import { classes } from 'tgui-core/react';
 import { createSearch } from 'tgui-core/string';
-import { SideDropdown } from '../../../iris_components/SideDropdown'; // IRIS EDIT ADDITION from https://github.com/Bubberstation/Bubberstation/pull/3157
 import { CharacterPreview } from '../../common/CharacterPreview';
 import { PageButton } from '../components/PageButton'; // NOVA EDIT ADDITION
 import { RandomizationButton } from '../components/RandomizationButton';
@@ -61,20 +60,6 @@ function CharacterControls(props: CharacterControlsProps) {
         <Button
           onClick={() => props.handleRotate(true)} // NOVA EDIT CHANGE - Original: onClick={props.handleRotate}
           fontSize="22px"
-          // IRIS EDIT ADDITION START: Retooled Rotate + Added Counter-Clockwise rotational icon
-          icon="redo"
-          tooltip="Rotate Clockwise"
-          tooltipPosition="top"
-        />
-      </Stack.Item>
-
-      <Stack.Item>
-        <Button
-          onClick={props.handleRotateReverse}
-          fontSize="22px"
-          icon="undo"
-          tooltip="Rotate Counter-Clockwise"
-          // IRIS EDIT ADDITION END
           tooltipPosition="top"
         />
       </Stack.Item>
