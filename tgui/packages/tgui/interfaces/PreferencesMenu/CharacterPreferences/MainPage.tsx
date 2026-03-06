@@ -60,6 +60,8 @@ function CharacterControls(props: CharacterControlsProps) {
         <Button
           onClick={() => props.handleRotate(true)} // NOVA EDIT CHANGE - Original: onClick={props.handleRotate}
           fontSize="22px"
+          icon="undo"
+          tooltip="Rotate"
           tooltipPosition="top"
         />
       </Stack.Item>
