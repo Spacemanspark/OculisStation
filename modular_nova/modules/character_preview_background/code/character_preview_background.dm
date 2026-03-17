@@ -12,7 +12,7 @@ GLOBAL_LIST_INIT(background_state_options, list(
 	"Dark Tiles" ,
 	"Plating",
 	"Reinforced Floor",
-	"Green",
+	"Green", // OCULIS EDIT ADDITION
 ))
 
 /datum/preference/choiced/background_state/create_default_value()
