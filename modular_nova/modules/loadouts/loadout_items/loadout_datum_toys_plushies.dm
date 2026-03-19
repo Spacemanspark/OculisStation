@@ -145,10 +145,6 @@
 	name = "Cosplayer Plushie"
 	item_path = /obj/item/toy/plush/nova/donator/sarmieplush
 
-/datum/loadout_item/toys/plush/sharknet
-	name = "Gluttonous Shark Plushie"
-	item_path = /obj/item/toy/plush/nova/donator/sharknet
-
 /datum/loadout_item/toys/plush/pintaplush
 	name = "Smaller Deer Plushie"
 	item_path = /obj/item/toy/plush/nova/donator/pintaplush
@@ -164,10 +160,6 @@
 /datum/loadout_item/toys/plush/seaduplush
 	name = "Sneed Plushie"
 	item_path = /obj/item/toy/plush/nova/donator/seaduplush
-
-/datum/loadout_item/toys/plush/lizzyplush
-	name = "Odd Yoga lizzy Plushie"
-	item_path = /obj/item/toy/plush/nova/donator/lizzyplush
 
 /datum/loadout_item/toys/plush/mechanic_fox
 	name = "Mechanist Fox Plushie"
@@ -232,14 +224,6 @@
 /datum/loadout_item/toys/plush/tracy
 	name = "Creature Plushie"
 	item_path = /obj/item/toy/plush/nova/donator/tracy
-
-/datum/loadout_item/toys/plush/adventurous_synth
-	name = "Adventurous Synth Plushie"
-	item_path = /obj/item/toy/plush/nova/donator/plushie_synthia
-
-/datum/loadout_item/toys/plush/jecca
-	name = "Sexy Snoodle Plushie"
-	item_path = /obj/item/toy/plush/nova/donator/jecca
 
 /datum/loadout_item/toys/plush/courier_synth
 	name = "Courier Synth Plushie"

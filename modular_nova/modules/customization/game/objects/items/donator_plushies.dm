@@ -189,34 +189,6 @@
 	squeak_override = list('modular_nova/modules/customization/game/objects/items/sound/tracymrowr.ogg' = 1)
 	gender = FEMALE
 
-//Donation reward for Frixit
-/obj/item/toy/plush/nova/donator/plushie_synthia
-	name = "adventurous synth plushie"
-	desc = "This plush is perfect For adventures in space and in bed, a cuddly purple Synth, their scarf is extra soft!"
-	icon_state = "plushie_synthia"
-	attack_verb_continuous = list(
-		"blushes",
-		"hugs",
-		"whips",
-		)
-	attack_verb_simple = list(
-		"blush",
-		"hug",
-		"whip",
-		)
-	squeak_override = list('modular_nova/modules/emotes/sound/emotes/twobeep.ogg' = 1)
-
-//Donation reward for Kitsun
-/obj/item/toy/plush/nova/donator/jecca
-	name = "sexy snoodle plushie"
-	desc = "For some reason, this plushie is rather shiny, with glistening, glittering scales, \
-			and its ruby colored eyes seem to be rather enticing and full of mischievous, lewd thoughts behind them."
-	icon_state = "plushie_jecca"
-	attack_verb_continuous = list("sighs")
-	attack_verb_simple = list("sigh")
-	squeak_override = list('modular_nova/modules/emotes/sound/emotes/female/female_sigh.ogg' = 1)
-	gender = FEMALE
-
 //Donation reward for BriareosBlue
 /obj/item/toy/plush/nova/donator/courier_synth
 	name = "courier synth plushie"
@@ -476,24 +448,6 @@
 	squeak_override = list('modular_nova/modules/emotes/sound/voice/weh.ogg' = 1)
 	gender = MALE
 
-/obj/item/toy/plush/nova/donator/sharknet
-	name = "gluttonous shark plushie"
-	desc = "A heavy plushie of a rather large and hungry shark"
-	icon_state = "plushie_sharknet"
-	attack_verb_continuous = list(
-		"cuddles",
-		"squishes",
-		"wehs",
-		)
-	attack_verb_simple = list(
-		"cuddle",
-		"squish",
-		"weh",
-		)
-	w_class = WEIGHT_CLASS_NORMAL
-	squeak_override = list('modular_nova/modules/emotes/sound/voice/slime_squish.ogg' = 1)
-	young = TRUE //No.
-
 /obj/item/toy/plush/sharknet/Initialize(mapload)
 	. = ..()
 	create_storage(max_slots = 2, max_specific_storage = WEIGHT_CLASS_SMALL, canhold = list(/obj/item/toy/plush/nova/donator/pintaplush))
@@ -562,14 +516,6 @@
 		'sound/machines/synth/synth_yes.ogg' = 1,
 		'sound/machines/synth/synth_no.ogg' = 1,
 		)
-
-/obj/item/toy/plush/nova/donator/lizzyplush
-	name = "odd yoga lizzy plushie"
-	desc = "Brought to you by Nanotrasen Wellness Program is the Yoga Odd Lizzy! He smells vaguely of blueberries, and likely resembles a horrible lover."
-	icon_state = "plushie_lizzy"
-	attack_verb_continuous = list("wehs")
-	attack_verb_simple = list("weh")
-	squeak_override = list('modular_nova/modules/emotes/sound/voice/weh.ogg' = 1)
 
 /obj/item/toy/plush/nova/donator/mechanic_fox
 	name = "mechanist fox plushie"
