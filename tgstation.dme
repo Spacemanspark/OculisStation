@@ -9919,6 +9919,7 @@
 #include "modular_oculis\master_files\code\modules\logging\log_holder.dm"
 #include "modular_oculis\master_files\code\modules\mentor\mentorsay.dm"
 #include "modular_oculis\master_files\code\modules\mob\living\navigation.dm"
+#include "modular_oculis\master_files\code\modules\mob\living\basic\lavaland\raptor\_raptor.dm"
 #include "modular_oculis\master_files\code\modules\mocking\client.dm"
 #include "modular_oculis\master_files\code\modules\projectiles\boxes_magazines\ammo_boxes.dm"
 #include "modular_oculis\master_files\modular_nova\master_files\code\controllers\subsystem\dynamic_rulesets_midround.dm"
