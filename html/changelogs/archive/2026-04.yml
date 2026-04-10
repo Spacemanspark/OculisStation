@@ -23,3 +23,6 @@
 2026-04-05:
   KnigTheThrasher:
   - bugfix: fixed ipc construction giving a negative moodlet
+2026-04-10:
+  flleeppyy:
+  - rscadd: Plexora OOM shutdown type.
