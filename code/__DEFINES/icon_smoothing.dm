@@ -172,6 +172,8 @@ DEFINE_BITFIELD(smoothing_junction, list(
 
 #define SMOOTH_GROUP_CARPET_GRIMEY S_TURF(87) //IRIS EDIT
 
+#define MAX_S_TURF 87 //Always match this value with the one above it.
+
 #define S_OBJ(num) ("-" + #num + ",")
 /* /obj included */
 

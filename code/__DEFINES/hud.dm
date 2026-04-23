@@ -170,6 +170,11 @@
 
 #define HUD_XENOBIO_CONSOLE "xenobio_console"
 
+// OCULIS EDIT ADDITION START
+#define HUD_MAPVOTE "mapvote"
+#define HUD_SUNLIGHT "sunlight"
+// OCULIS EDIT ADDITION END
+
 /*
 	These defines specificy screen locations.  For more information, see the byond documentation on the screen_loc var.
 
