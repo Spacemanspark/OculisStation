@@ -204,7 +204,6 @@
 		hud_used.set_parallax_movedir(areaobj.parallax_movedir, TRUE)
 
 // Root object for parallax, all parallax layers are drawn onto this and it manages them
-INITIALIZE_IMMEDIATE(/atom/movable/screen/parallax_home)
 /atom/movable/screen/parallax_home
 	icon = null
 	blend_mode = BLEND_ADD
@@ -296,7 +295,6 @@ INITIALIZE_IMMEDIATE(/atom/movable/screen/parallax_home)
 	QDEL_LIST(parallax_layers_cached)
 
 // We need parallax to always pass its args down into initialize, so we immediate init it
-INITIALIZE_IMMEDIATE(/atom/movable/screen/parallax_layer)
 /atom/movable/screen/parallax_layer
 	icon = 'modular_iris/master_files/icons/effects/skybox.dmi' //IRIS EDIT
 	var/speed = 1
