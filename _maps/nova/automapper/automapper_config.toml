@@ -99,6 +99,14 @@ required_map = "MetaStation.dmm"
 coordinates = [141, 149, 1]
 trait_name = "Station"
 
+# Metastation Bar Backroom
+[templates.metastation_bar_backroom]
+map_files = ["metastation_bar_backroom.dmm"]
+directory = "_maps/nova/automapper/templates/metastation/"
+required_map = "MetaStation.dmm"
+coordinates = [129, 121, 1]
+trait_name = "Station"
+
 # Iris - Metastation Kitchen Cold Room
 [templates.metastation_bridge_fax]
 map_files = ["metastation_bridge_fax.dmm"]
@@ -121,13 +129,6 @@ map_files = ["metastation_captain_phone.dmm"]
 directory = "_maps/iris/automapper/templates/metastation/"
 required_map = "MetaStation.dmm"
 coordinates = [121, 135, 1]
-
-# Metastation Bar Backroom
-[templates.metastation_bar_backroom]
-map_files = ["metastation_bar_backroom.dmm"]
-directory = "_maps/nova/automapper/templates/metastation/"
-required_map = "MetaStation.dmm"
-coordinates = [129, 121, 1]
 trait_name = "Station"
 
 # DELTASTATION MAP EDITS
