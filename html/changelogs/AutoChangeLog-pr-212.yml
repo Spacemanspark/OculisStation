@@ -1,4 +1,0 @@
-author: "Shroopy"
-delete-after: True
-changes:
-  - bugfix: "Syndicate bombs now properly scale defusal difficulty with time."
